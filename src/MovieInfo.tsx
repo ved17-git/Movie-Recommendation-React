@@ -238,7 +238,7 @@ function MovieInfo() {
                   <Rating
                     name="simple-controlled"
                     value={rating}
-                    onChange={(event, newValue) => {
+                    onChange={(_, newValue) => {
                       setRating(newValue || 0);
                     }}
                   />
